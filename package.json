@@ -2,7 +2,7 @@
   "name": "lib_storybook_inittial",
   "version": "1.0.1",
   "author": "Adao Benites Arce Junior",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 8080",
