@@ -1,8 +1,10 @@
 import React from 'react';
 import { Button as ButtonMUI } from '@mui/material';
 
-import { ReactFC } from 'types/interface';
+import { ButtonProps } from 'types/interface';
 
-export const Button: React.FC<ReactFC> = ({ children }) => (
-  <ButtonMUI variant="contained">{children}</ButtonMUI>
+export const Button: React.FC<ButtonProps> = (props) => (
+  <ButtonMUI variant="contained" sx={{ ...props?.sx }}>
+    {props.children}
+  </ButtonMUI>
 );
