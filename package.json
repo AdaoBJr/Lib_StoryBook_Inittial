@@ -1,10 +1,12 @@
 {
   "name": "lib_storybook_inittial",
   "version": "1.0.0",
+  "author": "Adao Benites Arce Junior",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook -p 8080"
+    "storybook": "start-storybook -p 8080",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
